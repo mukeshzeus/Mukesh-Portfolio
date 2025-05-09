@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +16,10 @@ body {
 body.light-theme {
   background-color: #fff;
   color: #000;
+}
+
+body.light-theme nav a {
+  color: #fff;
 }
 
 header {
@@ -180,6 +185,22 @@ section {
   color: #bb00ff;
 }
 
+/* Light Theme Overrides for Floating Cards */
+body.light-theme .project,
+body.light-theme .experience-entry,
+body.light-theme .external-box,
+body.light-theme .skills-list li {
+  background: #fff;
+  color: #000;
+  border-color: #bb00ff;
+  box-shadow: 0 0 10px #bb00ff44;
+}
+
+body.light-theme .external-box i,
+body.light-theme .experience-entry h3,
+body.light-theme .project h3 {
+  color: #bb00ff;
+}
 
 /* Contact Form */
 form input,
@@ -191,6 +212,13 @@ form textarea {
   color: #fff;
   border: 1px solid #bb00ff;
   border-radius: 5px;
+}
+
+body.light-theme form input,
+body.light-theme form textarea {
+  background: #fff;
+  color: #000;
+  border: 1px solid #bb00ff;
 }
 
 form button {
