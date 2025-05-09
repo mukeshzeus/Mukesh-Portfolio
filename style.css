@@ -118,6 +118,10 @@ section {
   box-shadow: 0 0 20px #bb00ffaa;
 }
 
+.project h3 {
+  color: #bb00ff;
+}
+
 /* External Links Floating Boxes */
 #external-links {
   text-align: center;
